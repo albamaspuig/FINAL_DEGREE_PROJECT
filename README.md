@@ -35,3 +35,8 @@ Contains scripts and files to create a custom BUSCO database.
 **Final Degree Project:** Bioinformatics  
 **Institution:** ESCI-UPF  
 **Date:** june 2025
+
+**Hosting Institution:** Institute of Evolutionary Biology (IBE), CSIC-UPF  
+**Research Group:** Multicell Genome Lab (MCG Lab)  
+**Supervisor:** Marta Álvarez-Presas
+

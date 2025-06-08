@@ -1,4 +1,4 @@
-# Final Degree Project: Genome Annotation Pipeline
+# Refining the Genome Annotation of Abeoforma whisleri: Improving Gene Prediction for Downstream Comparative Analysis
 This project implements a pipeline for annotating the genome of *Abeoforma*. The pipeline includes 
 RNA-seq alignment, genome masking, and gene annotation using tools like HISAT2, Portcullis, and 
 BRAKER...
@@ -29,3 +29,9 @@ Contains scripts and files to create a custom BUSCO database.
 - `scripts/`: Scripts to process scores and generate dataset files
 - `my_busco_dataset_odb10/`: Final BUSCO dataset
 - `busco_input/`: Input orthologs used to create the DB
+
+## Project Information
+**Author:** Alba Mas i Puig  
+**Final Degree Project:** Bioinformatics  
+**Institution:** ESCI-UPF  
+**Date:** june 2025

@@ -10,8 +10,7 @@ This repository includes:
 ### 1. annotation/
 Contains all scripts and results related to genome annotation.
 
-- `scripts/RNAdata/`: Download, trim, align RNAseq data; integrate NCBI RNA
-- `scripts/Annotation/`: BRAKER, functional annotation, TE analysis
+- `scripts/`: Annotation pipeline scripts, including genome annotation, RNA-seq processing, and external evidence integration
 - `data/`: Input RNAseq and protein data
 - `results/`: BRAKER output (with and without external evidence)
 

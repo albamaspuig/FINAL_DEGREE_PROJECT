@@ -16,7 +16,7 @@ Contains all scripts and results related to genome annotation.
 
 ### BRAKER3 Pipeline Overview
 
-![BRAKER3 Pipeline Overview](/home/alba/Documents/IBE/BRAKER.png "BRAKER3 Pipeline")
+![BRAKER3 Pipeline Overview](images/BRAKER.png "BRAKER3 Pipeline")
 
 *Figure 1: Schematic view of the BRAKER3 pipeline, adapted from Brůna et al. (2024), licensed under CC BY 4.0.*
 

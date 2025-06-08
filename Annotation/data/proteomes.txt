@@ -35,3 +35,4 @@ uniprotkb_proteome_UP000007879_2025_03_11_rn.fasta - Amphimedon queenslandica - 
 uniprotkb_proteome_UP000009022_2025_03_11_rn.fasta - Trichoplax adhaerens - TADHA
 uniprotkb_proteome_UP000030693_2025_03_11_rn.fasta - Fonticula alba - FALBA
 
+#This proteomes where combined with the FASTA file resulting from the previous annotation of PASA

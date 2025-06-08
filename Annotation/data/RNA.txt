@@ -1,0 +1,2 @@
+The RNA-seq data used in this project consisted of short reads previously generated at the Multicell Genome Lab (MCG, unpublished) using Illumina technology. These were combined with two publicly available datasets from NCBI: SRR1029669 (Experiment SRX377508) and SRR5192513 (Experiment SRX2508209).  
+

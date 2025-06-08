@@ -1,0 +1,35 @@
+| Filename                                              | Organism                      | Short Code |
+|-------------------------------------------------------|-------------------------------|------------|
+| Amoebidium.chr.v3.pep_rn.fasta                        | Amoebidium appalachense        | AAPPA      |
+| EP00044_Salpingoeca_rosetta_rn.fasta                  | Salpingoeca rosetta            | SALRO      |
+| EP00046_Monosiga_brevicollis_rn.fasta                 | Monosiga brevicollis           | MOBRE      |
+| EP00067_Danio_rerio_rn.fasta                           | Danio rerio                   | DANRE      |
+| EP00099_Drosophila_melanogaster_rn.fasta              | Drosophila melanogaster       | DROME      |
+| EP00110_Nematostella_vectensis_rn.fasta               | Nematostella vectensis        | NEVE       |
+| EP00123_Amoebidium_parasiticum_rn.fasta               | Amoebidium parasiticum        | APARA      |
+| EP00124_Ichthyophonus_hoferi_rn.fasta                  | Ichthyophonus hoferi          | IHOFI      |
+| EP00125_Sphaeroforma_arctica_rn.fasta                  | Sphaeroforma arctica          | SARCT2     |
+| EP00126_Sphaerothecum_destruens_rn.fasta               | Sphaerothecum destruens       | SDEST      |
+| EP00134_Neurospora_crassa_rn.fasta                     | Neurospora crassa             | NEUCRA     |
+| EP00144_Saccharomyces_cerevisiae_rn.fasta              | Saccharomyces cerevisiae      | SACE       |
+| EP00149_Cryptococcus_neoformans_rn.fasta               | Cryptococcus neoformans       | CRYNE      |
+| EP00152_Rhizopus_delemar_rn.fasta                      | Rhizopus delemar             | RHIDE      |
+| EP00645_Phytophthora_infestans_rn.fasta                | Phytophthora infestans        | PHEIN      |
+| EP00654_Saprolegnia_diclina_rn.fasta                   | Saprolegnia diclina           | SADIC      |
+| EP00813_Pythium_oligandrum_rn.fasta                     | Pythium oligandrum            | POLIG      |
+| EP01134_Creolimax_fragrantissima_rn.fasta              | Creolimax fragrantissima      | CREOFRA    |
+| MCG_Aurelia_spBirchAquariumsp1_rn.fasta                | Aurelia (Cnidaria)            | AUREL      |
+| MCG_Capsaspora_owczarzaki_rn.fasta                      | Capsaspora owczarzaki         | COWCZ      |
+| MCG_Clytia_hemisphaerica_rn.fasta                       | Clytia hemisphaerica          | CLYHE      |
+| MCG_Corallochytrium_limacisporumhawaii_rn.fasta         | Corallochytrium limacisporum (Hawaii) | CLIMH      |
+| MCG_Corallochytrium_limacisporumindia_rn.fasta          | Corallochytrium limacisporum (India) | CLIMI      |
+| MCG_Ministeria_vibrans_rn.fasta                         | Ministeria vibrans            | MIVI       |
+| MCG_Pigoraptor_chileana_rn.fasta                        | Pigoraptor chileana           | PICHI      |
+| MCG_Pigoraptor_vietnamica_rn.fasta                      | Pigoraptor vietnamica         | PIVIET     |
+| MCG_Pirum_gemmata_rn.fasta                              | Pirum gemmata                | PGEMM      |
+| MCG_Rhopilema_esculentum_rn.fasta                       | Rhopilema esculentum          | RHESC      |
+| MCG_Sphaeroforma_arctica_rn.fasta                        | Sphaeroforma arctica          | SARCT3     |
+| ML2.2_rn.fasta                                          | Mnemiopsis leidyi             | MLEID      |
+| uniprotkb_proteome_UP000007879_2025_03_11_rn.fasta     | Amphimedon queenslandica      | AQUEE      |
+| uniprotkb_proteome_UP000009022_2025_03_11_rn.fasta     | Trichoplax adhaerens          | TADHA      |
+| uniprotkb_proteome_UP000030693_2025_03_11_rn.fasta     | Fonticula alba                | FALBA      |

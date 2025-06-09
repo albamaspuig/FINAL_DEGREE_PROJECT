@@ -1,0 +1,66 @@
+{
+    "parameters": {
+        "out_path": "/home/amas/annotation",
+        "cpu": "1",
+        "force": "True",
+        "restart": "False",
+        "quiet": "False",
+        "download_path": "/home/amas/annotation/busco_downloads",
+        "datasets_version": "odb10",
+        "offline": "True",
+        "download_base_url": "https://busco-data.ezlab.org/v5/data/",
+        "auto-lineage": "False",
+        "auto-lineage-prok": "False",
+        "auto-lineage-euk": "False",
+        "use_augustus": "False",
+        "use_miniprot": "False",
+        "use_metaeuk": "False",
+        "skip_bbtools": "False",
+        "batch_mode": "False",
+        "tar": "False",
+        "opt-out-run-stats": "False",
+        "in": "/home/amas/annotation/braker_output8/braker.aa",
+        "out": "home/amas/annotation/busco_braker_proteins8",
+        "mode": "proteins",
+        "lineage_dataset": "/home/amas/annotation/eukaryota_odb10",
+        "main_out": "home/amas/annotation/busco_braker_proteins8",
+        "lineage_results_dir": "run_eukaryota_odb10",
+        "domain": "eukaryota",
+        "orthodb_version": "10.1"
+    },
+    "lineage_dataset": {
+        "name": "eukaryota_odb10",
+        "creation_date": "2024-01-08",
+        "number_of_buscos": "255",
+        "number_of_species": "70"
+    },
+    "versions": {
+        "hmmsearch": 3.4,
+        "python": [
+            3,
+            10,
+            14,
+            "final",
+            0
+        ],
+        "busco": "5.8.0"
+    },
+    "results": {
+        "one_line_summary": "C:76.1%[S:74.1%,D:2.0%],F:2.0%,M:22.0%,n:255",
+        "Complete percentage": 76.1,
+        "Complete BUSCOs": 194,
+        "Single copy percentage": 74.1,
+        "Single copy BUSCOs": 189,
+        "Multi copy percentage": 2.0,
+        "Multi copy BUSCOs": 5,
+        "Fragmented percentage": 2.0,
+        "Fragmented BUSCOs": 5,
+        "Missing percentage": 22.0,
+        "Missing BUSCOs": 56,
+        "n_markers": 255,
+        "avg_identity": null,
+        "domain": "eukaryota",
+        "internal_stop_codon_count": 0,
+        "internal_stop_codon_percent": 0
+    }
+}

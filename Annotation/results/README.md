@@ -1,15 +1,14 @@
-## Scripts for Genome Annotation of *Abeoforma Whisleri*
+## Results for Genome Annotation of *Abeoforma whisleri*
 
-This folder contains scripts for genome annotation using BRAKER3 with evidence from RNA-seq, protein homology, and repeat masking.
+This folder contains the results of the genome annotation analysis, including **structural** and **functional** assessments, as well as **transposable element (TE)** analysis.
 
-### 1. `braker3_annotation.sh`
-**Purpose:** Pipeline for the full annotation including repeat modeling, masking, RNA-seq alignment, Portcullis hints, and BRAKER3 execution.
+### 1. `comparison/`
+Contains files related to the comparison between the **previous annotation** (PASA) and the **new annotation** (BRAKER3). Includes:
+- **GFFCompare** outputs
+- **AGAT** statistics and summaries
+- **BUSCO** completeness assessments for both annotations
 
-### 2. `rna_aligning.sh`
-**Purpose:** Aligns RNA-seq reads using HISAT2, sorts and merges alignments, and prepares input files for Portcullis.
-
-### 3. `RNA_evidences.sh`
-**Purpose:** Downloads and processes external SRA RNA-seq datasets, performs trimming and alignment, and integrates results into the merged BAM for annotation.
-
-### 4. `convert_portcullis.py`
-**Purpose:** Converts BED intron junctions output from Portcullis into GFF format required by BRAKER3.
+### 2. `TES/`
+Contains results from **transposable element (TE)** analysis, including:
+- **LTRharvest** and **LTRdigest** results
+- **EDTA** outputs for genome-wide TE annotation

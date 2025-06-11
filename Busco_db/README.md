@@ -68,4 +68,4 @@ This subdirectory holds the custom BUSCO dataset for unicellular holozoans, incl
 To run BUSCO using this custom unicellular holozoans dataset on your input proteome:
 
 ```bash
-busco -i your_proteome.faa -l path/to/Busco_db/uni_holozoans_odb10 -o busco_output -m prot--offline -f
+busco -i your_proteome.faa -l path/to/Busco_db/uni_holozoans_odb10 -o busco_output -m prot --offline -f

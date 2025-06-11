@@ -1,0 +1,144 @@
+--------------------------------------------------------------------------------
+
+Compute mrna with isoforms if any
+
+Number of genes                              9747
+Number of mrnas                              10005
+Number of cdss                               10005
+Number of exons                              85873
+Number of introns                            75868
+Number of start_codons                       9981
+Number of stop_codons                        9996
+Number of exon in cds                        85873
+Number of intron in cds                      75868
+Number of intron in exon                     75868
+Number of intron in intron                   68029
+Number gene overlapping                      1
+Number of single exon gene                   2165
+Number of single exon mrna                   2166
+mean mrnas per gene                          1.0
+mean cdss per mrna                           1.0
+mean exons per mrna                          8.6
+mean introns per mrna                        7.6
+mean start_codons per mrna                   1.0
+mean stop_codons per mrna                    1.0
+mean exons per cds                           8.6
+mean introns in cdss per mrna                7.6
+mean introns in exons per mrna               7.6
+mean introns in introns per mrna             6.8
+Total gene length                            89676514
+Total mrna length                            92627058
+Total cds length                             13812603
+Total exon length                            13812603
+Total intron length                          78814455
+Total start_codon length                     29903
+Total stop_codon length                      29980
+Total intron length per cds                  78814455
+Total intron length per exon                 78814455
+Total intron length per intron               8436510
+mean gene length                             9200
+mean mrna length                             9258
+mean cds length                              1380
+mean exon length                             160
+mean intron length                           1038
+mean start_codon length                      2
+mean stop_codon length                       2
+mean cds piece length                        160
+mean intron in cds length                    1038
+mean intron in exon length                   1038
+mean intron in intron length                 124
+Longest gene                                 106962
+Longest mrna                                 106962
+Longest cds                                  14886
+Longest exon                                 4881
+Longest intron                               59087
+Longest start_codon                          3
+Longest stop_codon                           3
+Longest cds piece                            4881
+Longest intron into cds part                 59087
+Longest intron into exon part                59087
+Longest intron into intron part              4092
+Shortest gene                                120
+Shortest mrna                                120
+Shortest cds                                 6
+Shortest exon                                1
+Shortest intron                              33
+Shortest start_codon                         1
+Shortest stop_codon                          1
+Shortest cds piece                           1
+Shortest intron into cds part                33
+Shortest intron into exon part               33
+Shortest intron into intron part             6
+
+Re-compute mrna without isoforms asked. We remove shortest isoforms if any
+
+Number of genes                              9747
+Number of mrnas                              9747
+Number of cdss                               9747
+Number of exons                              82942
+Number of introns                            73195
+Number of start_codons                       9723
+Number of stop_codons                        9738
+Number of exon in cds                        82942
+Number of intron in cds                      73195
+Number of intron in exon                     73195
+Number of intron in intron                   65614
+Number gene overlapping                      1
+Number of single exon gene                   2166
+Number of single exon mrna                   2166
+mean mrnas per gene                          1.0
+mean cdss per mrna                           1.0
+mean exons per mrna                          8.5
+mean introns per mrna                        7.5
+mean start_codons per mrna                   1.0
+mean stop_codons per mrna                    1.0
+mean exons per cds                           8.5
+mean introns in cdss per mrna                7.5
+mean introns in exons per mrna               7.5
+mean introns in introns per mrna             6.7
+Total gene length                            89676514
+Total mrna length                            89636831
+Total cds length                             13456131
+Total exon length                            13456131
+Total intron length                          76180700
+Total start_codon length                     29130
+Total stop_codon length                      29208
+Total intron length per cds                  76180700
+Total intron length per exon                 76180700
+Total intron length per intron               8151898
+mean gene length                             9200
+mean mrna length                             9196
+mean cds length                              1380
+mean exon length                             162
+mean intron length                           1040
+mean start_codon length                      2
+mean stop_codon length                       2
+mean cds piece length                        162
+mean intron in cds length                    1040
+mean intron in exon length                   1040
+mean intron in intron length                 124
+Longest gene                                 106962
+Longest mrna                                 106962
+Longest cds                                  14886
+Longest exon                                 4881
+Longest intron                               59087
+Longest start_codon                          3
+Longest stop_codon                           3
+Longest cds piece                            4881
+Longest intron into cds part                 59087
+Longest intron into exon part                59087
+Longest intron into intron part              4092
+Shortest gene                                120
+Shortest mrna                                120
+Shortest cds                                 6
+Shortest exon                                1
+Shortest intron                              33
+Shortest start_codon                         1
+Shortest stop_codon                          1
+Shortest cds piece                           1
+Shortest intron into cds part                33
+Shortest intron into exon part               33
+Shortest intron into intron part             6
+
+--------------------------------------------------------------------------------
+

@@ -1,8 +1,8 @@
 #!/bin/bash
 import os
 
-HMM_DIR="/mnt/Franklin/amas/busco_input/my_busco_dataset_odb10/hmms"
-OUTFILE="/mnt/Franklin/amas/busco_input/my_busco_dataset_odb10/scores_cutoff"
+HMM_DIR="/mnt/Franklin/amas/busco_input/uni_holozoans_odb10/hmms"
+OUTFILE="/mnt/Franklin/amas/busco_input/uni_holozoans_odb10/scores_cutoff"
 
 echo "Generating scores_cutoff..."
 > "$OUTFILE"  # clear or create output file

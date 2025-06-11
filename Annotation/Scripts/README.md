@@ -13,3 +13,9 @@ This folder contains scripts for genome annotation using BRAKER3 with evidence f
 
 ### 4. `convert_portcullis.py`
 **Purpose:** Converts BED intron junctions output from Portcullis into GFF format required by BRAKER3.
+
+### 4. `compare.sh`
+**Purpose:** Compare both PASA and Braker3 annotations to see which one produced more accurate results. Use BUSCO, gffcompare and AGAT.
+
+### 4. `TEs_analysis.sh`
+**Purpose:** Genomic Distribution of Repeats. Identify where TEs are located relative to genes (exonic, intronic, intergenic).

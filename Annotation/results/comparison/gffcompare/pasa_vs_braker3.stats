@@ -1,0 +1,30 @@
+# gffcompare v0.12.9 | Command line was:
+#gffcompare -r /mnt/Franklin/amas/Abeoforma_PASA.agat_v2.renamed.gff -o /mnt/Franklin/amas/pasa_vs_braker3 /home/amas/annotation/braker_output9/braker.gff3
+#
+
+#= Summary for dataset: /home/amas/annotation/braker_output9/braker.gff3 
+#     Query mRNAs :   10005 in    9746 loci  (7839 multi-exon transcripts)
+#            (247 multi-transcript loci, ~1.0 transcripts per locus)
+# Reference mRNAs :   21477 in   18808 loci  (17355 multi-exon)
+# Super-loci w/ reference transcripts:     3636
+#-----------------| Sensitivity | Precision  |
+        Base level:    17.0     |    37.8    |
+        Exon level:    18.4     |    34.5    |
+      Intron level:    20.8     |    38.9    |
+Intron chain level:     8.3     |    18.4    |
+  Transcript level:     6.7     |    14.4    |
+       Locus level:     7.6     |    14.6    |
+
+     Matching intron chains:    1443
+       Matching transcripts:    1443
+              Matching loci:    1423
+
+          Missed exons:  123188/156115	( 78.9%)
+           Novel exons:   50766/83199	( 61.0%)
+        Missed introns:  107776/137191	( 78.6%)
+         Novel introns:   44581/73410	( 60.7%)
+           Missed loci:   15122/18808	( 80.4%)
+            Novel loci:    6078/9746	( 62.4%)
+
+ Total union super-loci across all input datasets: 9714 
+10005 out of 10005 consensus transcripts written in /mnt/Franklin/amas/pasa_vs_braker3.annotated.gtf (0 discarded as redundant)

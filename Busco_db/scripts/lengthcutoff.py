@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import os
 
-aln_dir = "/mnt/Franklin/amas/busco_input/my_busco_dataset_odb10/hmms"
-output_file = "/mnt/Franklin/amas/busco_input/my_busco_dataset_odb10/lengths_cutoff"
+aln_dir = "/mnt/Franklin/amas/busco_input/uni_holozoans_odb10/hmms"
+output_file = "/mnt/Franklin/amas/busco_input/uni_holozoans_odb10/lengths_cutoff"
 
 #check if a line in the file is a FASTA header (starts with ">")
 def is_fasta_header(line):

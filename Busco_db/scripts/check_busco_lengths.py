@@ -1,7 +1,7 @@
 import os
 from Bio import AlignIO
 
-aln_dir = "/mnt/Franklin/amas/busco_input/my_busco_dataset_odb10/hmms"
+aln_dir = "/mnt/Franklin/amas/busco_input/uni_holozoans_odb10/hmms"
 
 for fname in os.listdir(aln_dir):
     if fname.endswith(".aln"):

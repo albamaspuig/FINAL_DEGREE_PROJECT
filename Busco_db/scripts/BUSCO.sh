@@ -19,7 +19,7 @@ conda deactivate
 # Step 2: Extract, align, and build HMMs
 conda activate /home/shared/envs/evosearch
 
-BUSCO_DIR="/mnt/Franklin/amas/busco_input/my_busco_dataset_odb10"
+BUSCO_DIR="/mnt/Franklin/amas/busco_input/uni_holozoans_odb10"
 HMM_DIR="$BUSCO_DIR/hmms"
 mkdir -p "$HMM_DIR"
 

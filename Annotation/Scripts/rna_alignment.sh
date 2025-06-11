@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Set paths
-GENOME_INDEX="/home/amas/annotation/abeoforma_masked_index"
+GENOME_INDEX="/home/amas/annotation/index/abeoforma_masked_index"
 THREADS=8
-OUTPUT_DIR="/mnt/Franklin/amas/RNAseq/aligned_Vika"
+OUTPUT_DIR="/mnt/Franklin/amas/RNAseq/aligned_Vika2"
 GENOME_FASTA="/home/amas/annotation/masked/Abeoforma_genome_v2.fasta.masked"
 PORTCULLIS_OUT="/home/amas/annotation/portcullis_output"
 

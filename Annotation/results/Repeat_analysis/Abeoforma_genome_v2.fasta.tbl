@@ -1,0 +1,59 @@
+==================================================
+file name: Abeoforma_genome_v2.fasta
+sequences:           700
+total length:  242078367 bp  (242061975 bp excl N/X-runs)
+GC level:         27.22 %
+bases masked:  139834628 bp ( 57.76 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements        30629     15770319 bp    6.51 %
+   SINEs:                0            0 bp    0.00 %
+   Penelope            891       149205 bp    0.06 %
+   LINEs:            24755     12062931 bp    4.98 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex        598        39518 bp    0.02 %
+     R1/LOA/Jockey    1631       377238 bp    0.16 %
+     R2/R4/NeSL          0            0 bp    0.00 %
+     RTE/Bov-B       11264      6162368 bp    2.55 %
+     L1/CIN4          4350      1181388 bp    0.49 %
+   LTR elements:      5874      3707388 bp    1.53 %
+     BEL/Pao            48        36373 bp    0.02 %
+     Ty1/Copia         965       570282 bp    0.24 %
+     Gypsy/DIRS1      4822      3090383 bp    1.28 %
+       Retroviral       39        10350 bp    0.00 %
+
+DNA transposons       7484      1623471 bp    0.67 %
+   hobo-Activator      221        52393 bp    0.02 %
+   Tc1-IS630-Pogo      553       318483 bp    0.13 %
+   En-Spm                0            0 bp    0.00 %
+   MuDR-IS905            0            0 bp    0.00 %
+   PiggyBac              0            0 bp    0.00 %
+   Tourist/Harbinger     0            0 bp    0.00 %
+   Other (Mirage,        0            0 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles      13372      1676866 bp    0.69 %
+
+Unclassified:       251266     45885575 bp   18.95 %
+
+Total interspersed repeats:    63279365 bp   26.14 %
+
+
+Small RNA:            4604       700186 bp    0.29 %
+
+Satellites:             36         4031 bp    0.00 %
+Simple repeats:     494362     67907161 bp   28.05 %
+Low complexity:      56667      6267019 bp    2.59 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+RepeatMasker version 4.1.2-p1 , default mode
+                                     
+run with rmblastn version 2.10.0+
+The query was compared to classified sequences in "abeoforma_db-families.fa"
+FamDB: 

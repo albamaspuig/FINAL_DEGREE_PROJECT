@@ -10,5 +10,17 @@ Contains files related to the comparison between the **previous annotation** (PA
 
 ### 2. `TES/`
 Contains results from **transposable element (TE)** analysis, including:
-- **LTRharvest** and **LTRdigest** results
-- **EDTA** outputs for genome-wide TE annotation
+-   **`EDTA/`**
+    -   `TE_classification_summary.csv`: Comprehensive summary of TE classification and content.
+    -   `EDTA_plots.pdf/`: PDF document containing plots related to TEs characteristics.
+
+-   **`LTRharvest/`**
+    -   `ltr_summary.txt`: Summary statistics from LTRharvest.
+    -   `ltr_library.fa`: Library of identified LTR retrotransposons.
+    -   `ltr_plots.pdf`: PDF document containing plots related to LTR element characteristics.
+
+-   **`RepeatMasker/`**
+    -   `Abeoforma_genome_v2.fasta.out`: The main RepeatMasker output file detailing identified repeats.
+    -   `Abeoforma_genome_v2.fasta.tbl`: A table summarizing the RepeatMasker results.
+    -   `RepeatMasker_plot.png`: Visual representation of the genome's repeat content.
+

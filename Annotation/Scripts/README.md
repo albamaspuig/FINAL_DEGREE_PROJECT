@@ -19,3 +19,6 @@ This folder contains scripts for genome annotation using BRAKER3 with evidence f
 
 ### 4. `TEs_analysis.sh`
 **Purpose:** Genomic Distribution of Repeats. Identify where TEs are located relative to genes (exonic, intronic, intergenic).
+
+### 4. `merge.sh`
+**Purpose:** Pipeline to merge BRAKER and PASA annotations using AGAT and EVM, extract proteins, and assess completeness with BUSCO.

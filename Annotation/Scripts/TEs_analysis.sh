@@ -5,7 +5,7 @@
 # TE annotations → from RepeatMasker (.gff file)
 # Gene annotations → from BRAKER or PASA (.gff3)
 
-# Paths to input files (adjust as needed)
+# Paths to input files
 TE_GFF="/home/amas/annotation/masked2/Abeoforma_genome_v2.fasta.out.gff"
 GENE_GFF="/home/amas/annotation/braker_output8/braker.gff3"
 GENOME_FA="/mnt/Franklin/amas/Abeoforma_genome_v2.fasta"

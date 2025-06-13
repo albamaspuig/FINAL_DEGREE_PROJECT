@@ -1,0 +1,19 @@
+# BUSCO version is: 5.8.0 
+# The lineage dataset is: eukaryota_odb10 (Creation date: 2024-01-08, number of genomes: 70, number of BUSCOs: 255)
+# Summarized benchmarking in BUSCO notation for file /home/amas/annotation/merged/merged_proteins.fasta
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:94.1%[S:14.9%,D:79.2%],F:2.0%,M:3.9%,n:255	   
+	240	Complete BUSCOs (C)			   
+	38	Complete and single-copy BUSCOs (S)	   
+	202	Complete and duplicated BUSCOs (D)	   
+	5	Fragmented BUSCOs (F)			   
+	10	Missing BUSCOs (M)			   
+	255	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.4
+	python: sys.version_info(major=3, minor=10, micro=14, releaselevel='final', serial=0)
+	busco: 5.8.0

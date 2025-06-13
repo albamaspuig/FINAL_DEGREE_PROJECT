@@ -47,32 +47,32 @@ gffcompare -r /mnt/Franklin/amas/Abeoforma_PASA.agat_v2.renamed.gff -o /mnt/Fran
 
 cat /mnt/Franklin/amas/pasa_vs_braker3.stats
 '''
-#= Summary for dataset: /home/amas/annotation/braker_output9/braker.gff3 
+#= Summary for dataset: /home/amas/annotation/braker_output9/braker.gff3
 #     Query mRNAs :   10005 in    9746 loci  (7839 multi-exon transcripts)
 #            (247 multi-transcript loci, ~1.0 transcripts per locus)
-# Reference mRNAs :   21477 in   18808 loci  (17355 multi-exon)
-# Super-loci w/ reference transcripts:     3636
+# Reference mRNAs :   21477 in   18956 loci  (17355 multi-exon)
+# Super-loci w/ reference transcripts:     9455
 #-----------------| Sensitivity | Precision  |
-        Base level:    17.0     |    37.8    |
-        Exon level:    18.4     |    34.5    |
-      Intron level:    20.8     |    38.9    |
-Intron chain level:     8.3     |    18.4    |
-  Transcript level:     6.7     |    14.4    |
-       Locus level:     7.6     |    14.6    |
+        Base level:    43.8     |    97.5    |
+        Exon level:    46.6     |    87.4    |
+      Intron level:    52.7     |    98.4    |
+Intron chain level:    21.4     |    47.4    |
+  Transcript level:    17.3     |    37.2    |
+       Locus level:    19.4     |    37.7    |
 
-     Matching intron chains:    1443
-       Matching transcripts:    1443
-              Matching loci:    1423
+     Matching intron chains:    3717
+       Matching transcripts:    3717
+              Matching loci:    3673
 
-          Missed exons:  123188/156115	( 78.9%)
-           Novel exons:   50766/83199	( 61.0%)
-        Missed introns:  107776/137191	( 78.6%)
-         Novel introns:   44581/73410	( 60.7%)
-           Missed loci:   15122/18808	( 80.4%)
-            Novel loci:    6078/9746	( 62.4%)
+          Missed exons:   72937/156115  ( 46.7%)
+           Novel exons:     884/83199   (  1.1%)
+        Missed introns:   63702/137191  ( 46.4%)
+         Novel introns:     484/73410   (  0.7%)
+           Missed loci:    9380/18956   ( 49.5%)
+            Novel loci:     212/9746    (  2.2%)
 
+ Total union super-loci across all input datasets: 9667
 '''
-
 # Gene Feature Summary (AGAT)
 #Quick overview of features in both annotations — which predicts more genes, exons per transcript, UTRs (if present), etc.
 
@@ -88,34 +88,23 @@ agat_sp_compare_two_annotations.pl -gff1 /home/amas/annotation/braker_output9/br
 ----------------------------------------------------------------------------------------------
 |                                       gene with mrna                                       |
 ----------------------------------------------------------------------------------------------
-|            braker            |Abeoforma_PASA.agat_v2.renamed|        Number of cases       |
+|            braker            |    Abeoforma_PASA.agat_v2    |        Number of cases       |
 ----------------------------------------------------------------------------------------------
-|              0               |              1               |            15197             |
-|              1               |              0               |             6089             |
-|              1               |              1               |             3508             |
-|              1               |              2               |              72              |
-|              1               |              3               |              11              |
-|              1               |              4               |              6               |
-|              1               |              5               |              3               |
-|              2               |              0               |              1               |
-|              2               |              1               |              25              |
-|              2               |              2               |              1               |
+|              0               |              0               |              2               |
+|              0               |              1               |             9390             |
+|              1               |              0               |              233             |
+|              1               |              1               |             9262             |
+|              1               |              2               |              110             |
+|              1               |              3               |              2               |
+|              2               |              1               |              61              |
+|              2               |              2               |              5               |
 |              2               |              3               |              1               |
-|              2               |              5               |              1               |
+|              3               |              1               |              2               |
 ----------------------------------------------------------------------------------------------
 Number gene in braker: 9747
-Number gene in Abeoforma_PASA.agat_v2.renamed: 18956
-'''
+Number gene in Abeoforma_PASA.agat_v2: 18954
 
 '''
-~802% of PASA genes (15,197/18,956) are unique to PASA → indicates substantial additional content captured by the transcriptome-based assembly.
 
 
-~63% of BRAKER genes (6,089/9,747) are unique to BRAKER, suggesting that BRAKER may capture some ab initio-predicted genes not well-represented in the transcriptome assembly (lowly expressed or condition-specific genes).
-
-
-~36% of BRAKER genes (3,508/9,747) directly overlap with PASA genes, indicating that many of the high-confidence BRAKER genes are already captured by PASA.
-'''
-
-#Run TE_analysis for each annotation to compare where TEs are annotated.
 

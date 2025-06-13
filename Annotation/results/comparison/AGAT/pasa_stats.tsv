@@ -17,7 +17,7 @@ Number of intron in cds                      157505
 Number of intron in exon                     163733
 Number of intron in five_prime_utr           5731
 Number of intron in three_prime_utr          375
-Number gene overlapping                      493
+Number gene overlapping                      239
 Number of single exon gene                   4122
 Number of single exon mrna                   4122
 mean mrnas per gene                          1.1
@@ -99,7 +99,7 @@ Number of intron in cds                      130763
 Number of intron in exon                     134660
 Number of intron in five_prime_utr           3550
 Number of intron in three_prime_utr          260
-Number gene overlapping                      474
+Number gene overlapping                      221
 Number of single exon gene                   4122
 Number of single exon mrna                   4122
 mean mrnas per gene                          1.0

@@ -1,30 +1,30 @@
 # gffcompare v0.12.9 | Command line was:
-#gffcompare -r /mnt/Franklin/amas/Abeoforma_PASA.agat_v2.renamed.gff -o /mnt/Franklin/amas/pasa_vs_braker3 /home/amas/annotation/braker_output9/braker.gff3
+#gffcompare -r /mnt/Franklin/amas/Abeoforma_PASA.agat_v2.gff -o /mnt/Franklin/amas/pasa_vs_braker3 /home/amas/annotation/braker_output9/braker.gff3
 #
 
 #= Summary for dataset: /home/amas/annotation/braker_output9/braker.gff3 
 #     Query mRNAs :   10005 in    9746 loci  (7839 multi-exon transcripts)
 #            (247 multi-transcript loci, ~1.0 transcripts per locus)
-# Reference mRNAs :   21477 in   18808 loci  (17355 multi-exon)
-# Super-loci w/ reference transcripts:     3636
+# Reference mRNAs :   21477 in   18956 loci  (17355 multi-exon)
+# Super-loci w/ reference transcripts:     9455
 #-----------------| Sensitivity | Precision  |
-        Base level:    17.0     |    37.8    |
-        Exon level:    18.4     |    34.5    |
-      Intron level:    20.8     |    38.9    |
-Intron chain level:     8.3     |    18.4    |
-  Transcript level:     6.7     |    14.4    |
-       Locus level:     7.6     |    14.6    |
+        Base level:    43.8     |    97.5    |
+        Exon level:    46.6     |    87.4    |
+      Intron level:    52.7     |    98.4    |
+Intron chain level:    21.4     |    47.4    |
+  Transcript level:    17.3     |    37.2    |
+       Locus level:    19.4     |    37.7    |
 
-     Matching intron chains:    1443
-       Matching transcripts:    1443
-              Matching loci:    1423
+     Matching intron chains:    3717
+       Matching transcripts:    3717
+              Matching loci:    3673
 
-          Missed exons:  123188/156115	( 78.9%)
-           Novel exons:   50766/83199	( 61.0%)
-        Missed introns:  107776/137191	( 78.6%)
-         Novel introns:   44581/73410	( 60.7%)
-           Missed loci:   15122/18808	( 80.4%)
-            Novel loci:    6078/9746	( 62.4%)
+          Missed exons:   72937/156115	( 46.7%)
+           Novel exons:     884/83199	(  1.1%)
+        Missed introns:   63702/137191	( 46.4%)
+         Novel introns:     484/73410	(  0.7%)
+           Missed loci:    9380/18956	( 49.5%)
+            Novel loci:     212/9746	(  2.2%)
 
- Total union super-loci across all input datasets: 9714 
+ Total union super-loci across all input datasets: 9667 
 10005 out of 10005 consensus transcripts written in /mnt/Franklin/amas/pasa_vs_braker3.annotated.gtf (0 discarded as redundant)

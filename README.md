@@ -15,18 +15,16 @@ Contains all scripts and results related to genome annotation.
 
 ### BRAKER3 Pipeline Overview
 
-![BRAKER3 Pipeline Overview](images/braker3_pipeline.png "braker3 Pipeline")
+![BRAKER3 Pipeline Overview](images/Braker3_pipeline.png "braker3 Pipeline")
 
-*Figure 1: Schematic view of the BRAKER3 pipeline, adapted from Brůna et al. (2024), licensed under CC BY 4.0.*
-
-> Brůna, T., Gabriel, L., & Hoff, K. (2024). Navigating eukaryotic genome annotation pipelines: A route map to BRAKER, Galba, and TSEBRA. *arXiv*. https://doi.org/10.48550/arXiv.2403.19416
+*Diagram illustrating the BRAKER3 workflow, showing the integration of genome, RNA-seq, and protein database inputs.*
 
 
 ### 2. Busco_db/
 Contains scripts and files to create a custom BUSCO database for unicellular holozoans.
 
 - `scripts/`: Scripts to process scores and generate dataset files
-- `my_busco_dataset_odb10/`: Final BUSCO dataset
+- `uni_holozoans_odb10/`: Final BUSCO dataset
 - `busco_input/`: Input orthologs used to create the DB
 
 ## Project Information

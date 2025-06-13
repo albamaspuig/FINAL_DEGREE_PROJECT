@@ -46,6 +46,7 @@ gffread "${MERGE_DIR}/merged_annotation.gff3" \
 conda deactivate
 conda activate /home/shared/envs/busco
 
+
 busco -i "${MERGE_DIR}/merged_proteins.fasta" -l "$BUSCO_DB" -o "${MERGE_DIR}/busco_merged_proteins" -m protein -f --offline
 
 '''
@@ -88,7 +89,7 @@ gmst
 # Prepare weights File
 cat > weights.txt <<EOF
 TRANSCRIPT            .               10
-ABINITIO_PREDICTION   AUGUSTUS        5
+TRANSCRIPT            AUGUSTUS        5
 ABINITIO_PREDICTION   GeneMark.hmm3   1
 ABINITIO_PREDICTION   gmst            1
 EOF
@@ -150,16 +151,17 @@ conda deactivate
 
 '''
 ---------------------------------------------------
-    |Results from dataset eukaryota_odb10              |
-    ---------------------------------------------------
-    |C:74.5%[S:73.7%,D:0.8%],F:5.5%,M:20.0%,n:255      |
-    |190    Complete BUSCOs (C)                        |
-    |188    Complete and single-copy BUSCOs (S)        |
-    |2    Complete and duplicated BUSCOs (D)           |
-    |14    Fragmented BUSCOs (F)                       |
-    |51    Missing BUSCOs (M)                          |
-    |255    Total BUSCO groups searched                |
-    ---------------------------------------------------
+|Results from dataset eukaryota_odb10              |
+---------------------------------------------------
+|C:92.0%[S:86.7%,D:5.3%],F:3.5%,M:4.5%,n:255       |
+|235    Complete BUSCOs (C)                        |
+|221    Complete and single-copy BUSCOs (S)        |
+|14     Complete and duplicated BUSCOs (D)         |
+|9      Fragmented BUSCOs (F)                      |
+|11     Missing BUSCOs (M)                         |
+|255    Total BUSCO groups searched                |
+---------------------------------------------------
 
 '''
+
 

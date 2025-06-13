@@ -15,11 +15,8 @@ BUSCO_LINEAGE="eukaryota_odb10"o
 
 mkdir -p ${WORKDIR}/masked
 
-#Generate the proteomes database combining PASA with new proteomes database
+#Generate the proteomes database combining PASA output with new proteomes database
 cat /home/amas/annotation/combined_proteomes2.fasta /mnt/Franklin/amas/Abeoforma_PASA.agat.pep.fasta > prot_hint.fasta
-
-#error, an unexpected symbol was found in the file proteins.fa in: NSR..QHARKCNR.QFKWTII.STKSKPTTKSKSTTKSKSTTKSKSTTKSK.LC.P.KPSGNY.WNDQSK
-#error in protein file parsing: proteins.fa
 
 awk '/^>/ {print; next} {gsub(/[^ACDEFGHIKLMNPQRSTVWYBXZ\*]/,""); print}' prot_hint.fasta > proteins_clean.fa
 
@@ -32,6 +29,8 @@ BuildDatabase -name abeoforma_db -engine ncbi ${GENOME}
 
 echo "Step 2: Running RepeatModeler to identify repetitive elements..."
 RepeatModeler -database abeoforma_db -engine ncbi -pa ${T} -LTRStruct
+
+RepeatClassifier -consensi abeoforma_db-families.fa -stockholm abeoforma_db-families.stk
 
 # Suffixerator for repeat index
 gt suffixerator -db  ${GENOME} \
@@ -95,7 +94,7 @@ export PERL5LIB=/home/shared/envs/braker3/lib/perl5/5.32/site_perl
 # Run BRAKER3 for gene prediction
 echo "Step 7: Running BRAKER3 for gene prediction..."
 braker.pl \
-	--workingdir=/mnt/Franklin/amas/braker_output4 \
+	--workingdir=/mnt/Franklin/amas/braker_output \
 	--genome=${MASKED_GENOME} \
 	--bam=${READS_PATH} \
 	--prot_seq=${PROTEIN_DB} \
@@ -109,12 +108,6 @@ braker.pl \
 	--softmasking \
 	--useexisting \
 	--threads=8
----------------------------------------------------------------------------------------------
-#Re run braker adding the proteins from PASA
-braker.pl --workingdir=/home/amas/annotation/braker_output4 --genome=/home/amas/annotation/masked/Abeoforma_genome_v2.fasta.masked --bam=/mnt/Franklin/amas/RNAseq/aligned_Vika/all_merged_sorted.bam --prot_seq=/home/amas/annotation/proteins_clean_final.fa --hints=/home/amas/annotation/portcullis_output/portcullis.hints.gff --AUGUSTUS_CONFIG_PATH=/usr/share/augustus/config/ --AUGUSTUS_BIN_PATH=/usr/bin/ --AUGUSTUS_SCRIPTS_PATH=/usr/share/augustus/scripts/ --PROTHINT_PATH=/home/shared/soft/GeneMark-ETP/bin/gmes/ProtHint/bin/ --species="Abeoforma" --useexisting --threads=8
-
-
-#If this doesn't work try adding published RNA or les restricive masking of the genome.
 
 echo "Gene prediction completed."
 

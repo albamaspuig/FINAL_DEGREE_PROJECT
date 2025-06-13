@@ -24,3 +24,5 @@ Contains results from **transposable element (TE)** analysis, including:
     -   `Abeoforma_genome_v2.fasta.tbl`: A table summarizing the RepeatMasker results.
     -   `RepeatMasker_plot.png`: Visual representation of the genome's repeat content.
 
+### 3. `eggNOG/`
+This directory contains the functional annotation results generated using eggNOG-mapper. 

@@ -1,9 +1,7 @@
 # Refining the Genome Annotation of Abeoforma whisleri: Improving Gene Prediction for Downstream Comparative Analysis
-This project implements a pipeline for annotating the genome of *Abeoforma Whisleri*. The pipeline includes RNA-seq alignment, genome masking, and gene annotation using tools like HISAT2, Portcullis, and 
-BRAKER...
 
 This repository includes:
-1. A structural and functional reannotation pipeline for *Abeoforma whisleri*
+1. A structural and functional re-annotation pipeline for *Abeoforma whisleri*
 2. The creation of a custom BUSCO database for unicellular holozoans
 
 ### 1. Annotation/
@@ -15,7 +13,7 @@ Contains all scripts and results related to genome annotation.
 
 ### BRAKER3 Pipeline Overview
 
-![BRAKER3 Pipeline Overview](images/Braker3_pipeline.png "braker3 Pipeline")
+<img src="images/Braker3_pipeline.png" alt="braker3 Pipeline" style="width:60%;">
 
 *Diagram illustrating the BRAKER3 workflow, showing the integration of genome, RNA-seq, and protein database inputs.*
 

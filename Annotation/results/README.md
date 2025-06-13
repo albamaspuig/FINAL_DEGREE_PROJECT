@@ -8,7 +8,7 @@ Contains files related to the comparison between the **previous annotation** (PA
 - **AGAT** statistics and summaries
 - **BUSCO** completeness assessments for both annotations
 
-### 2. `TES/`
+### 2. `Repeat_analysis/`
 Contains results from **transposable element (TE)** analysis, including:
 -   **`EDTA/`**
     -   `TE_classification_summary.csv`: Comprehensive summary of TE classification and content.

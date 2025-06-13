@@ -13,7 +13,7 @@ Contains all scripts and results related to genome annotation.
 
 ### BRAKER3 Pipeline Overview
 
-<img src="images/Braker3_pipeline.png" alt="braker3 Pipeline" width="500"/>
+<img src="images/Braker3_pipeline.png" alt="braker3 Pipeline" width="100"/>
 
 *Diagram illustrating the BRAKER3 workflow, showing the integration of genome, RNA-seq, and protein database inputs.*
 

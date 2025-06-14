@@ -23,7 +23,6 @@ Contains scripts and files to create a custom BUSCO database for unicellular hol
 
 - `scripts/`: Scripts to process scores and generate dataset files
 - `uni_holozoans_odb10/`: Final BUSCO dataset
-- `busco_input/`: Input orthologs used to create the DB
 
 ## Project Information
 **Author:** Alba Mas i Puig  

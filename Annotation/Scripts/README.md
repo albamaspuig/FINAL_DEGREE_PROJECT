@@ -22,3 +22,7 @@ This folder contains scripts for genome annotation using BRAKER3 with evidence f
 
 ### 4. `merge.sh`
 **Purpose:** Pipeline to merge BRAKER and PASA annotations using AGAT and EVM, extract proteins, and assess completeness with BUSCO.
+
+<img src="images/merging_workflow.png" alt="braker3 Pipeline" width="250"/>
+
+*Diagram illustrating the merging workflow for the two methods.*

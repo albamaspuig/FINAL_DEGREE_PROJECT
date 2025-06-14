@@ -6,7 +6,7 @@ This folder contains the results of the genome annotation analysis, including **
 Contains files related to the comparison between the **previous annotation** (PASA) and the **new annotation** (BRAKER3). Includes:
 - **GFFCompare** outputs
 - **AGAT** statistics and summaries
-- **BUSCO** completeness assessments for both annotations
+- **BUSCO** completeness assessments for all annotations, plots and summaries
 
 ### 2. `Repeat_analysis/`
 Contains results from **transposable element (TE)** analysis, including:
@@ -20,9 +20,8 @@ Contains results from **transposable element (TE)** analysis, including:
     -   `ltr_plots.pdf`: PDF document containing plots related to LTR element characteristics.
 
 -   **`RepeatMasker/`**
-    -   `Abeoforma_genome_v2.fasta.out`: The main RepeatMasker output file detailing identified repeats.
     -   `Abeoforma_genome_v2.fasta.tbl`: A table summarizing the RepeatMasker results.
-    -   `RepeatMasker_plot.png`: Visual representation of the genome's repeat content.
+    -   `Repeat_masking.png`: Visual representation of the genome's repeat content.
 
 ### 3. `eggNOG/`
 This directory contains the functional annotation results generated using eggNOG-mapper. 

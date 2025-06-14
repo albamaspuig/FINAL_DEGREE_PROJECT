@@ -61,4 +61,18 @@ awk -F"\t" '$7 != "-" {print $7}' cleaned_annotations.tsv | tr -d ' ' | fold -w1
 
 
 
+cut -f10 cleaned_annotations.tsv | tr ',' '\n' | grep '^GO:' | sort | uniq -c | sort -nr | awk '{print $2 "\t" $1}' > REVIGO_input.txt
 
+head REVIGO_input.txt
+'''
+GO:0008150	6711
+GO:0005575	6650
+GO:0044464	6549
+GO:0005623	6549
+GO:0005622	6307
+GO:0044424	6284
+GO:0009987	6009
+GO:0003674	6000
+GO:0043226	5645
+GO:0043229	5599
+'''

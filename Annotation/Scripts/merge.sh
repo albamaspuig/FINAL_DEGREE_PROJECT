@@ -42,27 +42,40 @@ gffread "${MERGE_DIR}/merged_annotation.gff3" \
     -y "${MERGE_DIR}/merged_proteins.fasta"
 
 
-# Run BUSCO to assess completeness
+# Remove **exact** duplicate protein sequences
+seqkit rmdup -s "${MERGE_DIR}/merged_proteins.fasta" > "${MERGE_DIR}/merged_proteins_nr.fasta"
+#[INFO] 9681 duplicated records removed
+
+grep -c "^>" merged_proteins.fasta
+#31482
+
+grep -c "^>" merged_proteins_nr.fasta
+#21801
+
 conda deactivate
 conda activate /home/shared/envs/busco
 
+# Run BUSCO on the non-redundant proteins to assess completeness
+conda deactivate
+conda activate /home/shared/envs/busco
 
-busco -i "${MERGE_DIR}/merged_proteins.fasta" -l "$BUSCO_DB" -o "${MERGE_DIR}/busco_merged_proteins" -m protein -f --offline
+busco -i "${MERGE_DIR}/merged_proteins_nr.fasta" -l "$BUSCO_DB" -o "${MERGE_DIR}/busco_merged_proteins_nr" -m protein -f --offline
 
 '''
     ---------------------------------------------------
     |Results from dataset eukaryota_odb10              |
     ---------------------------------------------------
-    |C:94.1%[S:14.9%,D:79.2%],F:2.0%,M:3.9%,n:255      |
+    |C:94.1%[S:80.8%,D:13.3%],F:2.0%,M:3.9%,n:255      |
     |240    Complete BUSCOs (C)                        |
-    |38    Complete and single-copy BUSCOs (S)         |
-    |202    Complete and duplicated BUSCOs (D)         |
+    |206    Complete and single-copy BUSCOs (S)        |
+    |34    Complete and duplicated BUSCOs (D)          |
     |5    Fragmented BUSCOs (F)                        |
     |10    Missing BUSCOs (M)                          |
     |255    Total BUSCO groups searched                |
     ---------------------------------------------------
 
 '''
+
 conda deactivate
 
 # 2.  Integration with EVM (EvidenceModeler)
@@ -150,18 +163,13 @@ busco -i "${EVM_DIR}/evm_proteins.fasta" \
 conda deactivate
 
 '''
----------------------------------------------------
-|Results from dataset eukaryota_odb10              |
----------------------------------------------------
-|C:92.0%[S:86.7%,D:5.3%],F:3.5%,M:4.5%,n:255       |
-|235    Complete BUSCOs (C)                        |
-|221    Complete and single-copy BUSCOs (S)        |
-|14     Complete and duplicated BUSCOs (D)         |
-|9      Fragmented BUSCOs (F)                      |
-|11     Missing BUSCOs (M)                         |
-|255    Total BUSCO groups searched                |
----------------------------------------------------
+       C:83.1%[S:82.7%,D:0.4%],F:5.9%,M:11.0%,n:255       
+        212     Complete BUSCOs (C)                        
+        211     Complete and single-copy BUSCOs (S)        
+        1       Complete and duplicated BUSCOs (D)         
+        15      Fragmented BUSCOs (F)                      
+        28      Missing BUSCOs (M)                         
+        255     Total BUSCO groups searched  
 
 '''
-
 

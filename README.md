@@ -35,7 +35,7 @@ Contains scripts and files to create a custom BUSCO database for unicellular hol
 **Supervisor:** Marta Álvarez-Presas
 
 <p align="center">
-  <img src="images/ESCI_logo.png" alt="ESCI-UPF" height="60">
-  <img src="images/IBE_logo.png" alt="IBE-CSIC-UPF" height="60">
-  <img src="images/MCG_logo.png" alt="MCG Lab" height="60">
+  <img src="images/ESCI_logo.png" alt="ESCI-UPF" height="50" style="margin-right: 15px;">
+  <img src="images/IBE_logo.png" alt="IBE-CSIC-UPF" height="50" style="margin-right: 15px;">
+  <img src="images/MCG_logo.png" alt="MCG Lab" height="50">
 </p>

@@ -24,4 +24,4 @@ Contains results from **transposable element (TE)** analysis, including:
     -   `Repeat_masking.png`: Visual representation of the genome's repeat content.
 
 ### 3. `eggNOG/`
-This directory contains the functional annotation results generated using eggNOG-mapper. 
+This directory contains the functional annotation results generated using eggNOG-mapper and FANTASIA, including REVIGO outputs for Biological Processes (BP), Cellular Components (CC), and Molecular Functions (MF).

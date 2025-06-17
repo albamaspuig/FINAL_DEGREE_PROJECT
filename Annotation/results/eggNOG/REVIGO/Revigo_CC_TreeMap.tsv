@@ -1,0 +1,173 @@
+# WARNING - This exported Revigo data is only useful for the specific purpose of constructing a TreeMap visualization.
+# Do not use this table as a general list of non-redundant GO categories, as it sets an extremely permissive 
+# threshold to detect redundancies (c=0.10) and fill the 'representative' column, while normally c>=0.4 is recommended.
+# To export a reduced-redundancy set of GO terms, go to the Scatterplot or Table tab, and export from there.
+TermID	Name	Frequency	Value	Uniqueness	Dispensability	Representative
+"GO:0000407"	"phagophore assembly site"	0.153627006972055	-300	0.9256085013884977	0.08239805	null
+"GO:0005575"	"cellular_component"	100	-300	1	-0	null
+"GO:0005576"	"extracellular region"	3.728201021160707	-300	0.9999329189208473	5.311E-05	null
+"GO:0005615"	"extracellular space"	1.906263969905416	-300	0.999937888304675	4.364E-05	null
+"GO:0005622"	"intracellular anatomical structure"	55.94877702387162	-300	0.9998980303968141	0.00026887	null
+"GO:0005737"	"cytoplasm"	41.7815777098856	-300	0.9095195925303432	0.09408604	null
+"GO:0005829"	"cytosol"	12.02696395270017	-300	0.8857222287195483	0.17107525	"cytoplasm"
+"GO:0005933"	"cellular bud"	0.012506554899521485	-300	0.9999596412765669	2.662E-05	null
+"GO:0005935"	"cellular bud neck"	0.010752343388275753	-300	0.9798652353854918	2.632E-05	null
+"GO:0009295"	"nucleoid"	0.19369190032136008	-300	0.9999502152430764	3.381E-05	null
+"GO:0009986"	"cell surface"	0.6195435881011558	-300	0.9999446637334084	3.818E-05	null
+"GO:0012505"	"endomembrane system"	6.834981971920888	-300	0.999927612590598	7.846E-05	null
+"GO:0016020"	"membrane"	49.86666869619539	-300	0.9999003672957214	0.00019969	null
+"GO:0019867"	"outer membrane"	1.1089960482829875	-300	0.9735744525289508	0.07385559	null
+"GO:0019898"	"extrinsic component of membrane"	0.40471630868982233	-300	0.9758884071944424	0.0667344	null
+"GO:0030288"	"outer membrane-bounded periplasmic space"	0.5877581738333776	-300	0.9999449432195417	3.796E-05	null
+"GO:0030313"	"cell envelope"	1.1801401797156006	-300	0.9999409840294492	4.113E-05	null
+"GO:0030427"	"site of polarized growth"	0.13847041988911535	-300	0.9999516084878026	3.273E-05	null
+"GO:0030428"	"cell septum"	0.0722545498145539	-300	0.9999540909927788	3.082E-05	null
+"GO:0031974"	"membrane-enclosed lumen"	4.185416413755364	-300	0.9999319729195191	4.988E-05	null
+"GO:0032153"	"cell division site"	0.3191317476475662	-300	0.9999479802397564	3.556E-05	null
+"GO:0032991"	"protein-containing complex"	18.975028936380138	-300	1	-0	null
+"GO:0034045"	"phagophore assembly site membrane"	0.07282847392207382	-300	0.9197613086222118	0.0776955	null
+"GO:0036477"	"somatodendritic compartment"	0.48537260837402685	-300	0.9999459343752081	3.718E-05	null
+"GO:0042597"	"periplasmic space"	0.8644070609134351	-300	0.9999428245205568	3.965E-05	null
+"GO:0042995"	"cell projection"	2.454214268576769	-300	0.9999361124362182	4.509E-05	null
+"GO:0043025"	"neuronal cell body"	0.1946501040486977	-300	0.9881661529041217	3.383E-05	null
+"GO:0043202"	"lysosomal lumen"	0.007845293017576926	-300	0.8218900570121125	0.09658133	null
+"GO:0005775"	"vacuolar lumen"	0.015216474815898245	-300	0.8157676583221334	0.55612246	"lysosomal lumen"
+"GO:0005776"	"autophagosome"	0.12273990869865578	-300	0.8313478167917424	0.53331888	"lysosomal lumen"
+"GO:0043226"	"organelle"	35.952457624126374	-300	0.9999064430547754	0.00012646	null
+"GO:0044297"	"cell body"	0.19939371156346034	-300	0.9999500908701162	3.391E-05	null
+"GO:0045121"	"membrane raft"	0.10793765736905453	-300	0.9783672413439709	3.197E-05	null
+"GO:0045177"	"apical part of cell"	0.20759583565658227	-300	0.9999499169809357	3.404E-05	null
+"GO:0045202"	"synapse"	1.189926833409919	-300	0.9364253579520941	4.117E-05	null
+"GO:0000935"	"division septum"	0.009474738418492234	-300	0.9923245972786111	0.66123368	"synapse"
+"GO:0031594"	"neuromuscular junction"	0.0428571588984999	-300	0.9443622375335408	0.63964348	"synapse"
+"GO:0032154"	"cleavage furrow"	0.031471003669745604	-300	0.9278578736315214	0.43693037	"synapse"
+"GO:0036062"	"presynaptic periactive zone"	0.0001222707881238134	-300	0.9217889511887295	0.43195322	"synapse"
+"GO:0060077"	"inhibitory synapse"	0.0024129765737903584	-300	0.9528989200180239	0.51747526	"synapse"
+"GO:0048471"	"perinuclear region of cytoplasm"	0.22207868574373765	-300	0.9233750364642681	0.08493604	null
+"GO:0048475"	"coated membrane"	0.29603005465878524	-300	0.9765254528283914	0.06479615	null
+"GO:0051286"	"cell tip"	0.07952342340240427	-300	0.9832376889470048	3.108E-05	null
+"GO:0071944"	"cell periphery"	18.431522806558757	-300	0.9999165182377864	7.055E-05	null
+"GO:0098552"	"side of membrane"	0.7120826121332298	-300	0.9746443076887905	0.05925003	null
+"GO:0098857"	"membrane microdomain"	0.10804994686835193	-300	0.978365493530869	0.05106778	null
+"GO:0099080"	"supramolecular complex"	1.7908628038163958	-300	0.9999383110290418	4.33E-05	null
+"GO:0099513"	"polymeric cytoskeletal fiber"	1.040684107554875	-300	0.7004679159240681	0.04910535	null
+"GO:0000123"	"histone acetyltransferase complex"	0.2530431390055417	-300	0.6390565022692094	0.63361169	"polymeric cytoskeletal fiber"
+"GO:0000793"	"condensed chromosome"	0.39171817531559905	-300	0.7520558063647709	0.65895594	"polymeric cytoskeletal fiber"
+"GO:0000796"	"condensin complex"	0.02517530574247252	-300	0.7428838517156754	0.52664359	"polymeric cytoskeletal fiber"
+"GO:0000803"	"sex chromosome"	0.004950719257911138	-300	0.8165819165011005	0.47064758	"polymeric cytoskeletal fiber"
+"GO:0000806"	"Y chromosome"	0.00018714916549563275	-300	0.8432634847400511	0.23049671	"polymeric cytoskeletal fiber"
+"GO:0000814"	"ESCRT II complex"	0.019253906146190696	-300	0.6642565204283601	0.5942207	"polymeric cytoskeletal fiber"
+"GO:0000940"	"outer kinetochore"	0.06970682584160667	-300	0.6913664638810725	0.66764622	"polymeric cytoskeletal fiber"
+"GO:0005634"	"nucleus"	16.68197006187276	-300	0.7664156819583892	0.55355101	"polymeric cytoskeletal fiber"
+"GO:0005657"	"replication fork"	0.3308597620186258	-300	0.755393364801232	0.64892634	"polymeric cytoskeletal fiber"
+"GO:0005694"	"chromosome"	2.4935006213976125	-300	0.7387381850438727	0.57148838	"polymeric cytoskeletal fiber"
+"GO:0005700"	"polytene chromosome"	0.007194013921652123	-300	0.8124216329010965	0.48243482	"polymeric cytoskeletal fiber"
+"GO:0005739"	"mitochondrion"	4.598556930214697	-300	0.7957976224915168	0.24719214	"polymeric cytoskeletal fiber"
+"GO:0005773"	"vacuole"	1.2731558102891367	-300	0.8212875143693688	0.2044658	"polymeric cytoskeletal fiber"
+"GO:0005783"	"endoplasmic reticulum"	3.072994288082703	-300	0.7363882827131611	0.69041267	"polymeric cytoskeletal fiber"
+"GO:0005793"	"endoplasmic reticulum-Golgi intermediate compartment"	0.1507823396565214	-300	0.8516363340486104	0.16206369	"polymeric cytoskeletal fiber"
+"GO:0005794"	"Golgi apparatus"	2.331324640545717	-300	0.743537924357581	0.64183492	"polymeric cytoskeletal fiber"
+"GO:0005811"	"lipid droplet"	0.1443394177190584	-300	0.7959024861686202	0.36847071	"polymeric cytoskeletal fiber"
+"GO:0005816"	"spindle pole body"	0.08354089215504386	-300	0.7667894917292073	0.57688322	"polymeric cytoskeletal fiber"
+"GO:0005840"	"ribosome"	2.6775580826792575	-300	0.7368839925469938	0.57722929	"polymeric cytoskeletal fiber"
+"GO:0005856"	"cytoskeleton"	3.1141546278807093	-300	0.7328605259971969	0.55466468	"polymeric cytoskeletal fiber"
+"GO:0005871"	"kinesin complex"	0.06088336651903925	-300	0.7166835946826562	0.56163481	"polymeric cytoskeletal fiber"
+"GO:0005875"	"microtubule associated complex"	0.3539489783963737	-300	0.6780021013320392	0.6603303	"polymeric cytoskeletal fiber"
+"GO:0005905"	"clathrin-coated pit"	0.08893577876573129	-300	0.9001412212657026	0.40569581	"polymeric cytoskeletal fiber"
+"GO:0009536"	"plastid"	0.6724918300031804	-300	0.8316404622805481	0.18962295	"polymeric cytoskeletal fiber"
+"GO:0030684"	"preribosome"	0.5116757997538863	-300	0.8845013840607392	0.65103773	"polymeric cytoskeletal fiber"
+"GO:0030687"	"preribosome, large subunit precursor"	0.13733754360731515	-300	0.8959614021954134	0.569481	"polymeric cytoskeletal fiber"
+"GO:0030981"	"cortical microtubule cytoskeleton"	0.010657521144424632	-300	0.7526951637784047	0.65950661	"polymeric cytoskeletal fiber"
+"GO:0031090"	"organelle membrane"	5.734140636609097	-300	0.7935524289515095	0.40865742	"polymeric cytoskeletal fiber"
+"GO:0031410"	"cytoplasmic vesicle"	2.3616677585780756	-300	0.6924978417292598	0.54385974	"polymeric cytoskeletal fiber"
+"GO:0031967"	"organelle envelope"	2.2129490503864195	-300	0.8189264561900009	0.21933632	"polymeric cytoskeletal fiber"
+"GO:0031982"	"vesicle"	2.559826285649265	-300	0.8232239953448104	0.22362011	"polymeric cytoskeletal fiber"
+"GO:0031983"	"vesicle lumen"	0.008374301325377915	-300	0.774686030232007	0.35033998	"polymeric cytoskeletal fiber"
+"GO:0031984"	"organelle subcompartment"	2.258680820466932	-300	0.8185434846969745	0.16203424	"polymeric cytoskeletal fiber"
+"GO:0031985"	"Golgi cisterna"	0.14735875758905462	-300	0.7829270853689674	0.62696133	"polymeric cytoskeletal fiber"
+"GO:0032009"	"early phagosome"	0.0012676236809570857	-300	0.8100776760537487	0.69651407	"polymeric cytoskeletal fiber"
+"GO:0033116"	"endoplasmic reticulum-Golgi intermediate compartment membrane"	0.03412103585316376	-300	0.7984146052184521	0.10789558	"polymeric cytoskeletal fiber"
+"GO:0035861"	"site of double-strand break"	0.09854276926117378	-300	0.7769034894149554	0.58504983	"polymeric cytoskeletal fiber"
+"GO:0036452"	"ESCRT complex"	0.1201747174702623	-300	0.6696759151220066	0.69815377	"polymeric cytoskeletal fiber"
+"GO:0042175"	"nuclear outer membrane-endoplasmic reticulum membrane network"	1.776407402273513	-300	0.8720276497359963	0.53592046	"polymeric cytoskeletal fiber"
+"GO:0042470"	"melanosome"	0.0484766245077821	-300	0.7739021176961954	0.64244546	"polymeric cytoskeletal fiber"
+"GO:0042581"	"specific granule"	0.0016693705562210441	-300	0.7850620270427358	0.30674077	"polymeric cytoskeletal fiber"
+"GO:0043227"	"membrane-bounded organelle"	30.260550315864123	-300	0.7932173281016663	0.58504111	"polymeric cytoskeletal fiber"
+"GO:0043228"	"non-membrane-bounded organelle"	10.496068807012653	-300	0.8213514596932315	0.21678635	"polymeric cytoskeletal fiber"
+"GO:0043229"	"intracellular organelle"	35.1874966391129	-300	0.7803642184193805	0.57840227	"polymeric cytoskeletal fiber"
+"GO:0043231"	"intracellular membrane-bounded organelle"	29.492520084536526	-300	0.7513898770651057	0.38768553	"polymeric cytoskeletal fiber"
+"GO:0044391"	"ribosomal subunit"	2.006705679365819	-300	0.6538107269391851	0.48292066	"polymeric cytoskeletal fiber"
+"GO:0044732"	"mitotic spindle pole body"	0.0366163580597722	-300	0.77966663078187	0.65340045	"polymeric cytoskeletal fiber"
+"GO:0045335"	"phagocytic vesicle"	0.07481225507632754	-300	0.7569709235431374	0.66791728	"polymeric cytoskeletal fiber"
+"GO:0048770"	"pigment granule"	0.048529026274120875	-300	0.7738855247867075	0.64250647	"polymeric cytoskeletal fiber"
+"GO:0055028"	"cortical microtubule"	0.010482848589962042	-300	0.7339222802807924	0.62890688	"polymeric cytoskeletal fiber"
+"GO:0060205"	"cytoplasmic vesicle lumen"	0.008229572637394624	-300	0.7585417994079812	0.55581481	"polymeric cytoskeletal fiber"
+"GO:0070319"	"Golgi to plasma membrane transport vesicle"	0.009427327296566673	-300	0.7629162070722095	0.56161755	"polymeric cytoskeletal fiber"
+"GO:0071782"	"endoplasmic reticulum tubular network"	0.04063382681241178	-300	0.807335620118673	0.56533564	"polymeric cytoskeletal fiber"
+"GO:0072686"	"mitotic spindle"	0.14543985481217273	-300	0.7523671264989746	0.60570159	"polymeric cytoskeletal fiber"
+"GO:0090734"	"site of DNA damage"	0.10474863558900896	-300	0.7759110380088456	0.58796814	"polymeric cytoskeletal fiber"
+"GO:0098687"	"chromosomal region"	0.4597331727011251	-300	0.7488046639645913	0.41138224	"polymeric cytoskeletal fiber"
+"GO:0098791"	"Golgi apparatus subcompartment"	0.5000875234263967	-300	0.7660662270745519	0.1834429	"polymeric cytoskeletal fiber"
+"GO:1990498"	"mitotic spindle microtubule"	0.011905182247728852	-300	0.7708007627401452	0.69283374	"polymeric cytoskeletal fiber"
+"GO:0099568"	"cytoplasmic region"	0.28685475490508605	-300	0.9217409883857342	3.517E-05	null
+"GO:0099738"	"cell cortex region"	0.06893577127976466	-300	0.8694399723680033	0.07737054	null
+"GO:0001891"	"phagocytic cup"	0.007089210388974568	-300	0.9562928447780122	0.16388292	"cell cortex region"
+"GO:0005886"	"plasma membrane"	16.678688713171073	-300	0.9200361863494873	0.42008808	"cell cortex region"
+"GO:0005938"	"cell cortex"	0.5675435686376427	-300	0.8857330852891635	0.2773294	"cell cortex region"
+"GO:0009898"	"cytoplasmic side of plasma membrane"	0.26403503332565187	-300	0.9347457367355857	0.27859788	"cell cortex region"
+"GO:0019897"	"extrinsic component of plasma membrane"	0.23886721354979923	-300	0.931183754418787	0.27601694	"cell cortex region"
+"GO:0031012"	"extracellular matrix"	0.607880452107468	-300	0.9612835241699514	0.27925686	"cell cortex region"
+"GO:0032541"	"cortical endoplasmic reticulum"	0.024369316669737993	-300	0.7625531565450261	0.65929113	"cell cortex region"
+"GO:0045179"	"apical cortex"	0.003348722401268522	-300	0.8896641900178057	0.66391322	"cell cortex region"
+"GO:0090726"	"cortical dynamic polarity patch"	0.0002645041539004943	-300	0.9059286154547882	0.51109334	"cell cortex region"
+"GO:0098590"	"plasma membrane region"	0.8427900846375862	-300	0.9386061643105359	0.22883472	"cell cortex region"
+"GO:0098890"	"extrinsic component of postsynaptic membrane"	0.0005814100741397657	-300	0.9101512270892881	0.606607	"cell cortex region"
+"GO:1990753"	"equatorial cell cortex"	0.00012726143253703027	-300	0.9007892650711568	0.55980672	"cell cortex region"
+"GO:0120025"	"plasma membrane bounded cell projection"	2.0150749900467835	-300	0.9441885764890259	-0	null
+"GO:0005937"	"mating projection"	0.033220224536578115	-300	0.9563226978228041	0.60706594	"plasma membrane bounded cell projection"
+"GO:0031143"	"pseudopodium"	0.005721773819753145	-300	0.9607415142248044	0.52897454	"plasma membrane bounded cell projection"
+"GO:0044306"	"neuron projection terminus"	0.07652654143226753	-300	0.9499398967405855	0.6527873	"plasma membrane bounded cell projection"
+"GO:0150034"	"distal axon"	0.1300761559860846	-300	0.945394935264377	0.68561332	"plasma membrane bounded cell projection"
+"GO:1990904"	"ribonucleoprotein complex"	4.3863098139649965	-300	0.873058733863366	0	null
+"GO:0000502"	"proteasome complex"	0.38297706162584966	-300	0.8425843827461861	0.54807376	"ribonucleoprotein complex"
+"GO:0005667"	"transcription regulator complex"	0.782091371961836	-300	0.892254487236891	0.33761194	"ribonucleoprotein complex"
+"GO:0008023"	"transcription elongation factor complex"	0.17328016467130306	-300	0.722539278827486	0.62071371	"ribonucleoprotein complex"
+"GO:0008287"	"protein serine/threonine phosphatase complex"	0.13129636854511612	-300	0.8644154951922068	0.49024892	"ribonucleoprotein complex"
+"GO:0009360"	"DNA polymerase III complex"	0.08570932715258658	-300	0.8410795647597542	0.47047327	"ribonucleoprotein complex"
+"GO:0016604"	"nuclear body"	0.2670094573959292	-300	0.7880247208516317	0.64937091	"ribonucleoprotein complex"
+"GO:0016607"	"nuclear speck"	0.1457268168659327	-300	0.7946294497786746	0.60993292	"ribonucleoprotein complex"
+"GO:0030117"	"membrane coat"	0.29603005465878524	-300	0.8044874273469974	0.48981863	"ribonucleoprotein complex"
+"GO:0030964"	"NADH dehydrogenase complex"	0.12760079635712904	-300	0.8376141713054425	0.48887332	"ribonucleoprotein complex"
+"GO:0031965"	"nuclear membrane"	0.16147479531183853	-300	0.7183193515453291	0.58062463	"ribonucleoprotein complex"
+"GO:0031968"	"organelle outer membrane"	0.44340378418107956	-300	0.736134753076264	0.630219	"ribonucleoprotein complex"
+"GO:0031981"	"nuclear lumen"	3.2078514814166494	-300	0.7421005377763563	0.53525519	"ribonucleoprotein complex"
+"GO:0032993"	"protein-DNA complex"	0.9336672240800589	-300	0.8905523842807257	0.34527909	"ribonucleoprotein complex"
+"GO:0033061"	"DNA recombinase mediator complex"	0.025557090040083608	-300	0.9171027491879497	0.23628544	"ribonucleoprotein complex"
+"GO:0033063"	"Rad51B-Rad51C-Rad51D-XRCC2 complex"	0.016703686851036875	-300	0.8000080146661656	0.44254559	"ribonucleoprotein complex"
+"GO:0034399"	"nuclear periphery"	0.058615118633232176	-300	0.8134991086077188	0.55888381	"ribonucleoprotein complex"
+"GO:0034657"	"GID complex"	0.0332726263029169	-300	0.8542359688332481	0.4853444	"ribonucleoprotein complex"
+"GO:0034708"	"methyltransferase complex"	0.19766694859648734	-300	0.8035658609044143	0.56679004	"ribonucleoprotein complex"
+"GO:0035097"	"histone methyltransferase complex"	0.10872867450854942	-300	0.6838586070785515	0.59252817	"ribonucleoprotein complex"
+"GO:0042170"	"plastid membrane"	0.16489089141268548	-300	0.7506729980232485	0.57928405	"ribonucleoprotein complex"
+"GO:0042645"	"mitochondrial nucleoid"	0.036257031662020586	-300	0.7458294757361574	0.44628445	"ribonucleoprotein complex"
+"GO:0043224"	"nuclear SCF ubiquitin ligase complex"	0.00033187785347892204	-300	0.7990312235329025	0.34669252	"ribonucleoprotein complex"
+"GO:0061695"	"transferase complex, transferring phosphorus-containing groups"	1.395778438844082	-300	0.8144529626537425	0.67686359	"ribonucleoprotein complex"
+"GO:0071521"	"Cdc42 GTPase complex"	0.00010729885488416277	-300	0.9064161963524364	0.21092265	"ribonucleoprotein complex"
+"GO:0090443"	"FAR/SIN/STRIPAK complex"	0.007760452062552239	-300	0.9232506369454965	0.2139177	"ribonucleoprotein complex"
+"GO:0090575"	"RNA polymerase II transcription regulator complex"	0.41859778612518506	-300	0.7474759342010249	0.31308149	"ribonucleoprotein complex"
+"GO:0097123"	"cyclin A1-CDK2 complex"	0.00019463513211545805	-300	0.8830624531934095	0.52852495	"ribonucleoprotein complex"
+"GO:0097125"	"cyclin B1-CDK1 complex"	0.0013599506026015981	-300	0.8709422940539622	0.57499576	"ribonucleoprotein complex"
+"GO:0097135"	"cyclin E2-CDK2 complex"	0.0018365571440638092	-300	0.868840535227201	0.32841127	"ribonucleoprotein complex"
+"GO:0098588"	"bounding membrane of organelle"	2.931736593288806	-300	0.7386218018854546	0.53961696	"ribonucleoprotein complex"
+"GO:0098796"	"membrane protein complex"	4.11947502912353	-300	0.8494314829256352	0.42642357	"ribonucleoprotein complex"
+"GO:0098798"	"mitochondrial protein-containing complex"	0.52823475791694	-300	0.7432950807661309	0.321783	"ribonucleoprotein complex"
+"GO:0098800"	"inner mitochondrial membrane protein complex"	0.15674865505252217	-300	0.6859068720899737	0.50211966	"ribonucleoprotein complex"
+"GO:0098803"	"respiratory chain complex"	0.49897460972224944	-300	0.8963434687075904	0.31960703	"ribonucleoprotein complex"
+"GO:1902493"	"acetyltransferase complex"	0.3048759718812122	-300	0.8363356224669825	0.53463892	"ribonucleoprotein complex"
+"GO:1902494"	"catalytic complex"	6.912374390158849	-300	0.8668383019906879	0.46448686	"ribonucleoprotein complex"
+"GO:1902554"	"serine/threonine protein kinase complex"	0.3462284514891272	-300	0.8189754617931173	0.68552698	"ribonucleoprotein complex"
+"GO:1903293"	"phosphatase complex"	0.13136374224469455	-300	0.8677992297046786	0.49027371	"ribonucleoprotein complex"
+"GO:1905368"	"peptidase complex"	0.5677656523140309	-300	0.8517461199474906	0.57292836	"ribonucleoprotein complex"
+"GO:1990204"	"oxidoreductase complex"	0.5745778819380719	-300	0.8515993005070943	0.57371648	"ribonucleoprotein complex"
+"GO:1990221"	"L-cysteine desulfurase complex"	0.005334998877728837	-300	0.8268336216201969	0.20773459	"ribonucleoprotein complex"
+"GO:1990234"	"transferase complex"	2.986451523313109	-300	0.8281260768761798	0.40576077	"ribonucleoprotein complex"

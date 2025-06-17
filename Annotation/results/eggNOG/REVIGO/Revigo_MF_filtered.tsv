@@ -1,0 +1,48 @@
+TermID	Name	Value	Frequency	Dispensability
+GO:0002135	CTP binding	-300	4.3654784685543565e-05	0.12510402
+GO:0140065	peptide butyryltransferase activity	-300	0.0002248221411305	0.02427966
+GO:1990405	protein antigen binding	-300	0.0002728424042846	0.02085336
+GO:0019103	pyrimidine nucleotide binding	-300	0.0007945170812768	0.07176934
+GO:0051861	glycolipid binding	-300	0.0023660893299564	0.02320532
+GO:1990841	promoter-specific chromatin binding	-300	0.0203343987065261	0.0
+GO:0003823	antigen binding	-300	0.0475706188718368	0.03477977
+GO:0050897	cobalt ion binding	-300	0.1000676801954372	0.03692879
+GO:0060590	ATPase regulator activity	-300	0.1178919287825446	-0.0
+GO:0070567	cytidylyltransferase activity	-300	0.1185140094643136	0.12820411
+GO:0005048	signal sequence binding	-300	0.1770070554644734	0.03876593
+GO:0072341	modified amino acid binding	-300	0.2351836042756631	0.03975126
+GO:1901505	carbohydrate derivative transmembrane transporter activity	-300	0.2519819654226602	-0.0
+GO:0042277	peptide binding	-300	0.3380539216479122	0.04108458
+GO:0003774	cytoskeletal motor activity	-300	0.3811652042641207	-0.0
+GO:0016860	intramolecular oxidoreductase activity	-300	0.4079124908409533	0.04494619
+GO:0033218	amide binding	-300	0.4473371268904677	0.04217669
+GO:1901681	sulfur compound binding	-300	0.5929323820344583	0.03261082
+GO:0003682	chromatin binding	-300	0.6283254987182627	0.0485524
+GO:0016209	antioxidant activity	-300	0.6988585343346956	0.01365914
+GO:0030674	protein-macromolecule adaptor activity	-300	1.173763657754084	-0.0
+GO:0052689	carboxylic ester hydrolase activity	-300	1.2314992932399496	0.05138718
+GO:0008289	lipid binding	-300	1.2344983769478466	0.05241995
+GO:0060090	molecular adaptor activity	-300	1.301312024909071	-0.0
+GO:0020037	heme binding	-300	1.4740103531250812	0.05353971
+GO:0016705	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	-300	1.5200093997482385	0.05282935
+GO:0046906	tetrapyrrole binding	-300	1.6354741225022669	0.1375018
+GO:0044877	protein-containing complex binding	-300	1.6842430652137217	0.04824682
+GO:0004888	transmembrane signaling receptor activity	-300	1.7274176472677247	-0.0
+GO:0000981	DNA-binding transcription factor activity, RNA polymerase II-specific	-300	2.318396477687505	-0.0
+GO:0016853	isomerase activity	-300	2.417794056938019	0.05631442
+GO:0060089	molecular transducer activity	-300	2.5884558894484484	-0.0
+GO:0005198	structural molecule activity	-300	3.0956240814896883	-0.0
+GO:0016829	lyase activity	-300	3.522092038561232	0.05949562
+GO:0140098	catalytic activity, acting on RNA	-300	3.6389886382529455	-0.0
+GO:0098772	molecular function regulator activity	-300	3.8208326438605775	-0.0
+GO:0140110	transcription regulator activity	-300	6.680930431014821	-0.0
+GO:0005515	protein binding	-300	8.27054301946569	0.10186603
+GO:0005215	transporter activity	-300	10.075137960578989	-0.0
+GO:0016491	oxidoreductase activity	-300	11.074819433442528	0.09077751
+GO:0140096	catalytic activity, acting on a protein	-300	11.48423146613743	0.07233305
+GO:0097367	carbohydrate derivative binding	-300	15.405160165803492	0.07464077
+GO:0016740	transferase activity	-300	20.395735861748616	0.12785535
+GO:0016787	hydrolase activity	-300	22.11102402709146	0.10786404
+GO:0005488	binding	-300	58.52264612691586	-0.0
+GO:0003824	catalytic activity	-300	60.53379149902957	-0.0
+GO:0003674	molecular_function	-300	100.0	-0.0

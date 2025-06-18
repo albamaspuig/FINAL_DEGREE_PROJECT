@@ -1,6 +1,8 @@
 #!/bin/bash
-# Extract and summarize key functional annotation (GO terms, EC numbers, KEGG pathways, PFAM domains)
+# Functional annotation of predicted proteins using eggNOG-mapper and FANTASIA.
+# Assigns GO terms, functional pathways, orthologous groups, and protein descriptions to the  annotation.
 
+# Run eggNOG
 conda activate /home/shared/envs/eggnog
 
 mkdir -p /home/amas/annotation/eggnog_data
@@ -8,11 +10,10 @@ export EGGNOG_DATA_DIR=/home/amas/annotation/eggnog_data
 python download_eggnog_data.py
 
 emapper.py \
-  -i cleaned.fasta \
-  -o merged_eggnog \
-  --output_dir /home/amas/annotation/eggnog_output4 \
+  -i /home/amas/annotation/braker_output8/braker.aa \
+  -o braker_eggnog \
+  --output_dir /home/amas/annotation/eggnog_output2 \
   --itype proteins \
-  --override \
   --cpu 8 
   
 conda deactivate 
@@ -60,7 +61,6 @@ head -10 pfam_counts.txt
 awk -F"\t" '$7 != "-" {print $7}' cleaned_annotations.tsv | tr -d ' ' | fold -w1 | sort | uniq -c | sort -nr > cog_function_counts.txt
 
 
-
 cut -f10 cleaned_annotations.tsv | tr ',' '\n' | grep '^GO:' | sort | uniq -c | sort -nr | awk '{print $2 "\t" $1}' > REVIGO_input.txt
 
 head REVIGO_input.txt
@@ -76,3 +76,11 @@ GO:0003674	6000
 GO:0043226	5645
 GO:0043229	5599
 '''
+
+# Run FANTASIA
+
+conda activate /home/shared/envs/nextflow
+
+singularity run -B /mnt/Franklin/amas/fantasia_output3:/mnt/Franklin/amas/fantasia_output3 -B /home/amas/annotation/merged/:/home/amas/annotation/merged/ /mnt/Franklin/malvarez/soft/fantasia.sif --infile /home/amas/annotation/merged/merged_proteins_clean.fasta --outpath /mnt/Franklin/amas/fantasia_output3 --keepintermediate --prefix Abeoforma --prott5
+
+conda deactivate

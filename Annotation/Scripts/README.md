@@ -27,7 +27,30 @@ This folder contains scripts for genome annotation using BRAKER3 with evidence f
 
 *Diagram illustrating the merging workflow for the two methods.*
 
-### 8. `Revigo_filter.py`
-**Purpose:** This script filters REVIGO output tables to retain only the most representative GO terms based on dispensability. It ensures clean, reproducible preparation of enriched GO terms (BP, CC, MF) for visualization, reporting, and supplementary materials.
+### 8. `Interproscan.sh`
+**Purpose:** 
+Performs protein domain and family prediction using InterProScan.  
+- Identifies conserved protein domains and assigns proteins to InterPro entries.  
+- Associates proteins with Gene Ontology (GO) terms and pathway information.  
+- Generates summary files with:  
+  - Top 20 most frequent domains  
+  - Domain type counts  
+  - Per-gene lists of domains and descriptions.
 
+### 9. `Eggnog_Fantasia.sh`
+**Purpose:** 
+Performs functional annotation of predicted proteins using eggNOG-mapper and FANTASIA.  
+- Assigns:  
+  - **Gene Ontology (GO)** terms  
+  - **Enzyme Commission (EC)** numbers  
+  - **KEGG Orthologs (KO)**  
+  - **KEGG Pathways**  
+  - **Protein family (PFAM)** annotations  
+  - **COG functional categories**  
+  - Orthologous groups and functional descriptions.  
+- Prepares input for REVIGO summarization of GO terms.  
+- Runs FANTASIA to provide complementary protein function predictions using deep learning models.
+
+### 10. `Revigo_filter.py`
+**Purpose:** This script filters REVIGO output tables to retain only the most representative GO terms based on dispensability. It ensures clean, reproducible preparation of enriched GO terms (BP, CC, MF) for visualization, reporting, and supplementary materials.
 

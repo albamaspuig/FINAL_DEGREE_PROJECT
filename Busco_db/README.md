@@ -16,23 +16,25 @@ This subdirectory holds the custom BUSCO dataset for unicellular holozoans, incl
 - `lengths_cutoff` — File containing length cutoffs per BUSCO group, used for filtering hits.
 - `scores_cutoff` — File specifying bit score cutoffs per BUSCO group for reliable detection.
 
-#### Species used for Orthofinder analysis:
+### Species Used for OrthoFinder Analysis
 
-| #  | Species Name                         |
-|----|------------------------------------|
-| 1  | Capsaspora_owczarzaki.faa           |
-| 2  | Chromosphaera_perkinsii.faa         |
-| 3  | Corallochytrium_limacisporum_HI.faa|
-| 4  | Corallochytrium_limacisporum_IN.faa|
-| 5  | Creolimax_fragrantissima.faa        |
-| 6  | Ichthyophonus_hoferi.faa            |
-| 7  | Ministeria_vibrans.faa              |
-| 8  | Monosiga_brevicollis.faa            |
-| 9  | Pigoraptor_chileana.faa             |
-| 10 | Pigoraptor_vietnamica.faa           |
-| 11 | Salpingoeca_rosetta.faa             |
-| 12 | Sphaeroforma_arctica.faa            |
-| 13 | Sphaerothecum_destruens.faa         |
+| #  | Species                                      | Lineage           | Source | Number of Proteins |
+|----|----------------------------------------------|-------------------|--------|--------------------|
+| 1  | *Capsaspora owczarzaki*                      | Filozoa           | MCG    | 10,186             |
+| 2  | *Chromosphaera perkinsii*                    | Corallochytrea    | MCG    | 8,500              |
+| 3  | *Corallochytrium limacisporum* (Hawaii)      | Corallochytrea    | MCG    | 7,535              |
+| 4  | *Corallochytrium limacisporum* (India)       | Corallochytrea    | MCG    | 7,667              |
+| 5  | *Creolimax fragrantissima*                   | Ichthyosporea     | NCBI   | 8,694              |
+| 6  | *Ichthyophonus hoferi*                       | Ichthyosporea     | NCBI   | 6,351              |
+| 7  | *Ministeria vibrans*                         | Filasterea        | MCG    | 12,742             |
+| 8  | *Monosiga brevicollis*                       | Choanoflagellata  | NCBI   | 9,203              |
+| 9  | *Pigoraptor chileana*                        | Aphelidea         | MCG    | 14,618             |
+| 10 | *Pigoraptor vietnamica*                      | Aphelidea         | MCG    | 14,922             |
+| 11 | *Salpingoeca rosetta*                        | Choanoflagellata  | NCBI   | 11,731             |
+| 12 | *Sphaeroforma arctica*                       | Ichthyosporea     | NCBI   | 18,730             |
+| 13 | *Sphaerothecum destruens*                    | Ichthyosporea     | NCBI   | 15,930             |
+
+**Table:** Species used for the construction of the *Unicellular Holozoans* custom BUSCO dataset and OrthoFinder analysis, showing their taxonomic lineage, data source, and number of predicted proteins.
 
 ### `scripts/`
 

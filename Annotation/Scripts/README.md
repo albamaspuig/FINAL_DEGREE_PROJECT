@@ -14,15 +14,20 @@ This folder contains scripts for genome annotation using BRAKER3 with evidence f
 ### 4. `convert_portcullis.py`
 **Purpose:** Converts BED intron junctions output from Portcullis into GFF format required by BRAKER3.
 
-### 4. `compare.sh`
+### 5. `compare.sh`
 **Purpose:** Compare both PASA and Braker3 annotations to see which one produced more accurate results. Use BUSCO, gffcompare and AGAT.
 
-### 4. `TEs_analysis.sh`
+### 6. `TEs_analysis.sh`
 **Purpose:** Genomic Distribution of Repeats. Identify where TEs are located relative to genes (exonic, intronic, intergenic).
 
-### 4. `merge.sh`
+### 7. `merge.sh`
 **Purpose:** Pipeline to merge BRAKER and PASA annotations using AGAT and EVM, extract proteins, and assess completeness with BUSCO.
 
 <img src="/images/merging_workflow.png" alt="braker3 Pipeline" width="500"/>
 
 *Diagram illustrating the merging workflow for the two methods.*
+
+### 8. `Revigo_filter.py`
+**Purpose:** This script filters REVIGO output tables to retain only the most representative GO terms based on dispensability. It ensures clean, reproducible preparation of enriched GO terms (BP, CC, MF) for visualization, reporting, and supplementary materials.
+
+

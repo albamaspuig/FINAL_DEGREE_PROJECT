@@ -36,7 +36,7 @@ Contains scripts and files to create a custom BUSCO database for unicellular hol
 
 <p align="center">
   <img src="images/ESCI_logo.png" alt="ESCI-UPF" height="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/IBE_logo.png" alt="IBE-CSIC-UPF" height="45">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="images/IBE_logo.png" alt="IBE-CSIC-UPF" height="48">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="images/MCG_logo.png" alt="MCG Lab" height="60">
 </p>
 

@@ -25,3 +25,6 @@ Contains results from **transposable element (TE)** analysis, including:
 
 ### 3. `eggNOG/`
 This directory contains the functional annotation results generated using eggNOG-mapper and FANTASIA, including REVIGO outputs for Biological Processes (BP), Cellular Components (CC), and Molecular Functions (MF).
+
+### 4. `Interpro/`
+This directory contains the functional annotation results generated using InterProScan. It includes predicted protein domains, motifs, and signatures associated with the annotated proteins. The results provide insights into the structural and functional features of the Abeoforma whisleri proteome, including domain assignments from databases such as Pfam, SMART, and CDD. These annotations were used for downstream analyses of protein function, domain diversity, and enrichment studies.
